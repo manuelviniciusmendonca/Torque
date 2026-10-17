@@ -1,0 +1,35 @@
+# Dependencies and generated output
+**/node_modules/
+**/dist/
+**/dist-ssr/
+**/build/
+**/coverage/
+
+# Local environment and credentials
+.env
+.env.*
+!.env.example
+*.local
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Local data, uploads, backups, and archives
+**/uploads/
+**/storage/
+**/backups/
+*.zip
+*.sql.gz
+*.dump
+*.sqlite
+*.sqlite3
+
+# Logs and local editor settings
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+.vscode/
+.idea/
+.DS_Store
